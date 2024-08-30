@@ -41,23 +41,28 @@ System Requirements: The project necessitates the latest version of Power BI Des
   * New sheet in Power BI (.pibx) file for analyzing app landscape.
 * KPI Card: Unique Number of Apps
   * Counts the unique number of apps.
-   <img width="476" alt="Screen Shot 2024-02-20 at 4 48 24 PM" src="https://github.com/Robblodo11/Airbnb-Rental-Marker-Analysis-READ.ME/assets/153016872/e988ec59-db65-406a-919f-4f42ab68a95a">
+   ![image](https://github.com/user-attachments/assets/0708ef61-94d9-4f35-ac29-f350788aba6c)
+
 * Line Chart: Review Count vs Lastmod Date
   * Sum of the review count on the Y-axis vs the lastmod date on the X-axis.
-  <img width="568" alt="Screen Shot 2024-02-20 at 4 49 37 PM" src="https://github.com/Robblodo11/Airbnb-Rental-Marker-Analysis-READ.ME/assets/153016872/d5d831d4-cc59-43f0-82de-b0c107068f78">
+  ![image](https://github.com/user-attachments/assets/e9bb0d17-e7c4-40a6-ae59-5ea5685c958e)
+
 * Scatterplot: Reviews Count vs Average Rating
   * Reviews count on the X axis and the average rating on the Y axis with interpretation in a text box.
-  <img width="567" alt="Screen Shot 2024-02-20 at 4 50 26 PM" src="https://github.com/Robblodo11/Airbnb-Rental-Marker-Analysis-READ.ME/assets/153016872/81c54c39-97ef-48ec-8039-3d74d91aa28f">
+  ![image](https://github.com/user-attachments/assets/3aeff73b-a09f-48e3-839a-1a7a6e99cafd)
+
   
 ### Part 2: Reviews
 * Reviews Sheet
   * New sheet in the Power BI file for analyzing reviews.
 * KPI Card: Average Value of Helpful Reviews
   * Average value of the new helpful_reviews column.
-   <img width="436" alt="Screen Shot 2024-02-20 at 4 51 13 PM" src="https://github.com/Robblodo11/Airbnb-Rental-Marker-Analysis-READ.ME/assets/153016872/dd7b34cc-8314-4787-90bb-110c3c672fc7">
+   ![image](https://github.com/user-attachments/assets/06ccb77a-6a38-49ca-b459-c409b6ecf153)
+
 * Scatterplot: Average Rating vs Developer Answered
   * Comparison of the average rating on the Y-Axis by the value of the developer_answered column on the X-Axis.
-  <img width="522" alt="Screen Shot 2024-02-20 at 4 51 54 PM" src="https://github.com/Robblodo11/Airbnb-Rental-Marker-Analysis-READ.ME/assets/153016872/5400ce42-0654-4728-a897-e63fd766c727">
+  ![image](https://github.com/user-attachments/assets/794f361e-448d-4d02-b278-60e20e024c01)
+
 
   * False or if the developer did not answer, there's an average rating of 4.78, while True, or if the developer did answer, we have an average rating of 4.48. So apps where the developer answered show lower average ratings scores then apps where the developer did not answer.
 
@@ -66,13 +71,15 @@ System Requirements: The project necessitates the latest version of Power BI Des
   * New sheet in the Power BI file for analyzing app reviews.
 * Bar Chart: Sum of Rating by Developer
   * Developer on the X-Axis and the sum of rating on the Y-Axis.
-  <img width="391" alt="Screen Shot 2024-02-20 at 4 53 12 PM" src="https://github.com/Robblodo11/Airbnb-Rental-Marker-Analysis-READ.ME/assets/153016872/e562efbd-69c8-4f50-9631-7e368ed25707">
+  ![image](https://github.com/user-attachments/assets/f06d141d-7a60-4022-a827-22fa5aeb771a)
+
 * Bar Chart: Helpful Review Average by Developer
   * Developer on the X-Axis against the helpful_review average on the Y-Axis.
-  <img width="392" alt="Screen Shot 2024-02-20 at 4 54 03 PM" src="https://github.com/Robblodo11/Airbnb-Rental-Marker-Analysis-READ.ME/assets/153016872/69f1c1c7-31a3-46c4-9ce8-c063f5b03897">
+  ![image](https://github.com/user-attachments/assets/2533d426-b4bb-42d8-a97f-9fc555936635)
+
 * Bar Chart: Most Responsive Developers
   * Developer from the apps table and the developer_answered column with a filter for rows where reviews_count is greater than 500.
-  <img width="377" alt="Screen Shot 2024-02-20 at 4 54 46 PM" src="https://github.com/Robblodo11/Airbnb-Rental-Marker-Analysis-READ.ME/assets/153016872/10f3f2fc-3ae9-4ffe-921e-795180d58dc4">
+ ![image](https://github.com/user-attachments/assets/59347fa6-6de4-4c53-a396-e9d39c01d740)
 
 ### Part 4: Conclusions
 * The total number of unique apps available on the Shopify platform is 7,341.
